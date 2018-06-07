@@ -7,21 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		391D12F620BE64A4003C696A /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 391D12F520BE64A4003C696A /* iOSDevCenters+GIF.swift */; };
+		391D12F820BE6708003C696A /* giphy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 391D12F720BE6708003C696A /* giphy.gif */; };
+		391D12FA20BE6DC4003C696A /* firework_sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 391D12F920BE6DC4003C696A /* firework_sound.mp3 */; };
 		39C7555920BE3B6800E19825 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C7555820BE3B6800E19825 /* AppDelegate.swift */; };
-		39C7555B20BE3B6800E19825 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C7555A20BE3B6800E19825 /* ViewController.swift */; };
 		39C7555E20BE3B6800E19825 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C7555C20BE3B6800E19825 /* Main.storyboard */; };
 		39C7556020BE3B6800E19825 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C7555F20BE3B6800E19825 /* Assets.xcassets */; };
 		39C7556320BE3B6800E19825 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C7556120BE3B6800E19825 /* LaunchScreen.storyboard */; };
+		39C7556B20BE413A00E19825 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C7556A20BE413A00E19825 /* MainViewController.swift */; };
+		39C7556D20BE45C000E19825 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C7556C20BE45C000E19825 /* FirstViewController.swift */; };
+		39C7556F20BE45C900E19825 /* SeymaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C7556E20BE45C900E19825 /* SeymaViewController.swift */; };
+		39C7557120BE4EED00E19825 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C7557020BE4EED00E19825 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		391D12F520BE64A4003C696A /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		391D12F720BE6708003C696A /* giphy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = giphy.gif; sourceTree = "<group>"; };
+		391D12F920BE6DC4003C696A /* firework_sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = firework_sound.mp3; sourceTree = "<group>"; };
 		39C7555520BE3B6800E19825 /* James.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = James.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C7555820BE3B6800E19825 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		39C7555A20BE3B6800E19825 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		39C7555D20BE3B6800E19825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		39C7555F20BE3B6800E19825 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39C7556220BE3B6800E19825 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39C7556420BE3B6800E19825 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C7556A20BE413A00E19825 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		39C7556C20BE45C000E19825 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		39C7556E20BE45C900E19825 /* SeymaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeymaViewController.swift; sourceTree = "<group>"; };
+		39C7557020BE4EED00E19825 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +67,17 @@
 			isa = PBXGroup;
 			children = (
 				39C7555820BE3B6800E19825 /* AppDelegate.swift */,
-				39C7555A20BE3B6800E19825 /* ViewController.swift */,
+				39C7556A20BE413A00E19825 /* MainViewController.swift */,
 				39C7555C20BE3B6800E19825 /* Main.storyboard */,
 				39C7555F20BE3B6800E19825 /* Assets.xcassets */,
 				39C7556120BE3B6800E19825 /* LaunchScreen.storyboard */,
 				39C7556420BE3B6800E19825 /* Info.plist */,
+				391D12F520BE64A4003C696A /* iOSDevCenters+GIF.swift */,
+				39C7556C20BE45C000E19825 /* FirstViewController.swift */,
+				39C7556E20BE45C900E19825 /* SeymaViewController.swift */,
+				39C7557020BE4EED00E19825 /* ViewController.swift */,
+				391D12F920BE6DC4003C696A /* firework_sound.mp3 */,
+				391D12F720BE6708003C696A /* giphy.gif */,
 			);
 			path = James;
 			sourceTree = "<group>";
@@ -91,7 +109,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Vansa Pha";
 				TargetAttributes = {
 					39C7555420BE3B6800E19825 = {
@@ -123,8 +141,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				391D12FA20BE6DC4003C696A /* firework_sound.mp3 in Resources */,
 				39C7556320BE3B6800E19825 /* LaunchScreen.storyboard in Resources */,
 				39C7556020BE3B6800E19825 /* Assets.xcassets in Resources */,
+				391D12F820BE6708003C696A /* giphy.gif in Resources */,
 				39C7555E20BE3B6800E19825 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,8 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39C7555B20BE3B6800E19825 /* ViewController.swift in Sources */,
+				39C7557120BE4EED00E19825 /* ViewController.swift in Sources */,
+				391D12F620BE64A4003C696A /* iOSDevCenters+GIF.swift in Sources */,
+				39C7556D20BE45C000E19825 /* FirstViewController.swift in Sources */,
 				39C7555920BE3B6800E19825 /* AppDelegate.swift in Sources */,
+				39C7556F20BE45C900E19825 /* SeymaViewController.swift in Sources */,
+				39C7556B20BE413A00E19825 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +201,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -184,6 +209,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -234,6 +260,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -241,6 +268,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -275,13 +303,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PG98TTFS9P;
+				DEVELOPMENT_TEAM = 62EMNW6G6D;
 				INFOPLIST_FILE = James/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kosign.James;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kosign.Jame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -290,13 +319,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = PG98TTFS9P;
+				DEVELOPMENT_TEAM = 62EMNW6G6D;
 				INFOPLIST_FILE = James/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.kosign.James;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kosign.Jame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
